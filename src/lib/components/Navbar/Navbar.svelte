@@ -12,7 +12,7 @@
     ];
 
     let userMenu: { element: string; route: string }[] = [
-        { element: 'Connect', route: 'connect' },
+        { element: 'Connect', route: 'https://discord.com/api/oauth2/authorize?client_id=971375358559526922&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth%2Fredirect&response_type=code&scope=email%20identify%20guilds' },
         { element: 'Support', route: 'https://discord.gg/SFuxrG3Y2F' },
     ];
 </script>
